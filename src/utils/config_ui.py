@@ -28,7 +28,7 @@ class ConfigUI:
         }
 
         self.root = ctk.CTk()
-        self.root.title("StarLabs Monad Configuration")
+        self.root.title("FAREIAN Monad Configuration")
         self.root.geometry("1250x800")
         self.root.minsize(1250, 800)  # Set minimum window size
         self.root.configure(fg_color=self.colors["bg"])
@@ -42,7 +42,7 @@ class ConfigUI:
         # Header on the left
         header = ctk.CTkLabel(
             header_frame,
-            text="🌟 StarLabs Monad Configuration",
+            text="🌟 FAREIAN Monad Configuration",
             font=("Helvetica", 24, "bold"),
             text_color=self.colors["accent"],
             anchor="w",

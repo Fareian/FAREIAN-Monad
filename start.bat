@@ -1,4 +1,7 @@
 @echo off
+title FAREIAN Monad Bot
+color 0a
+
 echo Checking virtual environment...
 
 if not exist venv (
@@ -14,6 +17,6 @@ echo Activating virtual environment...
 call venv\Scripts\activate.bat
 
 echo.
-echo Starting StarLabs Monad Bot...
+echo Starting FAREIAN Monad Bot...
 python main.py
 pause

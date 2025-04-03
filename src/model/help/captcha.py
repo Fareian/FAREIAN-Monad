@@ -554,7 +554,7 @@ class Solvium:
             "Authorization": f"Bearer {self.api_key}",
         }
 
-        url = f"{self.base_url}/task/turnstile?url={pageurl}&sitekey={sitekey}&ref=starlabs"
+        url = f"{self.base_url}/task/turnstile?url={pageurl}&sitekey={sitekey}&ref=FAREIAN"
 
         # if self.proxy:
         #     formatted_proxy = self._format_proxy(self.proxy)

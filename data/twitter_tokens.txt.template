@@ -1,0 +1,4 @@
+# Add your Twitter tokens here, one per line
+# Format: auth_token
+# Example:
+# auth_token=abc123... 

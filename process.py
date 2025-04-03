@@ -36,7 +36,7 @@ async def start():
     show_dev_info()
 
     try:
-        await check_version("0xStarLabs", "StarLabs-Monad")
+        await check_version("0xFAREIAN", "FAREIAN-Monad")
     except Exception as e:
         import traceback
 

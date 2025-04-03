@@ -1,5 +1,5 @@
 TASKS = [
-    "CRUSTY_SWAP",
+    "NATURAL_FLOW",
 ]
 
 # MAGICEDEN WORKS ONLY WITH THESE NFT https://magiceden.io/mint-terminal/monad-testnet
@@ -185,3 +185,31 @@ EXCHANGE_AND_MEMEBRIDGE_TASK = [
 # "aircraft" - mint NFT on aircraft.fun
 # "narwhal_finance" - play games on testnet.narwhal.finance/carnival
 # "monsternad_whitelist" - add to monsternad whitelist airdrop.monsternad.xyz/dashboard/
+
+NATURAL_FLOW = [
+    # Initial setup and basic operations
+    ["crusty_refuel", "skip", "skip"],  # Optional refuel
+    
+    # Main trading operations with randomization
+    ["ambient", "izumi", "bean", "skip", "skip"],  # Random DEX choice
+    ["ambient", "izumi", "bean", "skip", "skip", "skip"],  # Another random DEX with more skips
+    
+    # NFT and gaming activities
+    ["magiceden", "monadking", "skip", "skip"],  # Random NFT minting
+    ["aircraft", "lilchogstars", "skip", "skip"],  # More NFT options
+    
+    # Staking operations
+    ["apriori", "magma", "shmonad", "skip", "skip"],  # Random staking choice
+    ["kintsu", "skip", "skip"],  # Optional additional staking
+    
+    # Bridge and transfer operations
+    "collect_all_to_monad",  # Consolidate funds
+    ["orbiter", "skip", "skip"],  # Optional bridging
+    
+    # Additional activities
+    ["narwhal_finance", "skip", "skip"],  # Optional gaming
+    ["nad_domains", "skip", "skip"],  # Optional domain registration
+    
+    # Final cleanup
+    "logs",  # Show final stats
+]

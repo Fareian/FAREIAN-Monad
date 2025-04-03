@@ -104,7 +104,7 @@ async def compare_versions(
             f"⚠️ Update available!\n"
             f"📅 Latest update released: {formatted_date}\n"
             f"ℹ️ To update, use: git pull\n"
-            f"📥 Or download from: https://github.com/0xStarLabs/StarLabs-Monad",
+            f"📥 Or download from: https://github.com/Fareian/FAREIAN-Monad",
         )
 
     except Exception as e:
